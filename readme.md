@@ -1,4 +1,4 @@
-<!-- # TransBMAP
+# TransBMAP
 
 ## About TransBMAP
 **TransBMAP** is a self-attention based neural network that predicts antimicrobial label of biomimetic active peptides. 
@@ -25,4 +25,4 @@ python run_transbmap.py AAAAAAAA C6ring # Predicts the antimicrobial activity la
 ```
 ## Correspondence
 Prof. Huaimin Wang (wanghuaimin@westlake.edu.cn)  
-Prof. Jing Huang (huangjing@westlake.edu.cn) -->
+Prof. Jing Huang (huangjing@westlake.edu.cn)
