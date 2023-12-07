@@ -25,4 +25,4 @@ python run_transbmap.py AAAAAAAA C6ring # Predicts the antimicrobial activity la
 ```
 ## Correspondence
 Prof. Huaimin Wang (wanghuaimin@westlake.edu.cn)  
-Prof. Jing Huang (huangjing@westlake.edu.cn)
+[Prof. Jing Huang](https://github.com/JingHuangLab) (huangjing@westlake.edu.cn)
