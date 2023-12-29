@@ -4,7 +4,7 @@
 **TransBMAP** is a self-attention based neural network that predicts antimicrobial label of biomimetic active peptides. 
 
 ## Environments
-The TransBMAP is based on TensorFlow 2.10. The terminal commands below create a Conda environment for running TransBMAP inference with CudaTOolkit 11.2. 
+The TransBMAP is based on TensorFlow 2.10 (with CudaToolkit 11.2). The terminal commands below create a Conda environment for running TransBMAP inference. 
 ```bash
 conda create --name transbmap
 conda activate transbmap
