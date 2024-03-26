@@ -20,7 +20,7 @@ if __name__ == "__main__":
   
   # Load the model. 
   import tensorflow as tf
-  model = tf.saved_model.load('./c_transbmap/models_pretrain/amp_pretrain_learner.h5')
+  model = tf.saved_model.load('./c_transsafp/models_pretrain/amp_pretrain_learner.h5')
 
   # Output prediction.
   label, x_embed, x_recon = model((sequence_input, ), training=False)

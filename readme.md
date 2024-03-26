@@ -15,14 +15,30 @@ CONDA_OVERRIDE_CUDA="11.2" conda install tensorflow-gpu=2.10 cudatoolkit==11.2 -
 To predict a native peptide sequence without any (unnatrual amino acid or chemical modifications), use the pretrain model:
 ```bash
 python run_pretrain.py {Your-Sequence-Here}
-python run_pretrain.py AAAAAAAA # Predicts the antimicrobial activity label of octa-alanine.
+python run_pretrain.py AAAAAAAA # Predicts the antimicrobial activity label of the octa-alanine.
 ```
 
 To predict a chemical modified peptide sequence, use the transSAFP model:
 ```bash
 python run_transSAFP.py {Your-Sequence-Here} {Your-Modification-Here}
-python run_transSAFP.py AAAAAAAA C6ring # Predicts the antimicrobial activity label of octa-alanine with C6ring modification.
+python run_transSAFP.py AAAAAAAA C-HEX # Predicts the antimicrobial activity label of the octa-alanine with C-HEX N-terminal modification.
 ```
+Available N-terminal types are: 
+```
+- C8   
+- C12  
+- C16  
+- PHE  
+- BIP  
+- DIP  
+- NAP  
+- ANT  
+- PYR  
+- C-PRO
+- C-HEX
+```
+
+
 ## Correspondence
 Prof. Huaimin Wang (wanghuaimin@westlake.edu.cn)  
 [Prof. Jing Huang](https://github.com/JingHuangLab) (huangjing@westlake.edu.cn)

@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
   # Load the model. 
   import tensorflow as tf
-  model = tf.saved_model.load('./c_transbmap/models_transfer/amp_transfer_learner.h5')
+  model = tf.saved_model.load('./c_transsafp/models_transfer/amp_transfer_learner.h5')
 
   # Output prediction.
   label = model(([sequence_input], [nterm_input]), training=False)
