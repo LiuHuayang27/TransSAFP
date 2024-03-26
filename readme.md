@@ -1,13 +1,13 @@
-# TransBMAP
+# TransSAFP
 
-## About TransBMAP
-**TransBMAP** is a self-attention based neural network that predicts antimicrobial label of biomimetic active peptides. 
+## About TransSAFP
+**TransSAFP** is a self-attention based neural network that predicts antimicrobial label of biomimetic active peptides. 
 
 ## Environments
-The TransBMAP is based on TensorFlow 2.10 (with CudaToolkit 11.2). The terminal commands below create a Conda environment for running TransBMAP inference. 
+The TransSAFP is based on TensorFlow 2.10 (with CudaToolkit 11.2). The terminal commands below create a Conda environment for running TransSAFP inference. 
 ```bash
-conda create --name transbmap
-conda activate transbmap
+conda create --name transSAFP
+conda activate transSAFP
 CONDA_OVERRIDE_CUDA="11.2" conda install tensorflow-gpu=2.10 cudatoolkit==11.2 -c conda-forge
 ```
 
@@ -18,10 +18,10 @@ python run_pretrain.py {Your-Sequence-Here}
 python run_pretrain.py AAAAAAAA # Predicts the antimicrobial activity label of octa-alanine.
 ```
 
-To predict a chemical modified peptide sequence, use the transBMAP model:
+To predict a chemical modified peptide sequence, use the transSAFP model:
 ```bash
-python run_transbmap.py {Your-Sequence-Here} {Your-Modification-Here}
-python run_transbmap.py AAAAAAAA C6ring # Predicts the antimicrobial activity label of octa-alanine with C6ring modification.
+python run_transSAFP.py {Your-Sequence-Here} {Your-Modification-Here}
+python run_transSAFP.py AAAAAAAA C6ring # Predicts the antimicrobial activity label of octa-alanine with C6ring modification.
 ```
 ## Correspondence
 Prof. Huaimin Wang (wanghuaimin@westlake.edu.cn)  
