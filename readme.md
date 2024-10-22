@@ -14,7 +14,7 @@ CONDA_OVERRIDE_CUDA="11.2" conda install tensorflow-gpu=2.10 cudatoolkit==11.2 -
 ## Usage
 To install, simply `git clone` this repository and activate the corresponding Conda environment.
 
-To predict a native peptide sequence (without any unnatrual amino acid or chemical modifications) using the pretrain model:
+To predict a native peptide sequence (without any unnatural amino acid or chemical modifications) using the pretrain model:
 ```bash
 python run_pretrain.py {Your-Sequence-Here}
 python run_pretrain.py AAAAAAAA # Predicts the antimicrobial activity label of the octa-alanine.
