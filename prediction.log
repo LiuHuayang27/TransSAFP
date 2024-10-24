@@ -1,4 +1,3 @@
-# SAFPs. -----------------------------------------------------------------------------------
 Antimicrobial label prediction of the sequence         LLKWLKK with nterm:    DIP is 0.9999.
 Antimicrobial label prediction of the sequence       RLWLAIKRR with nterm:    C12 is 1.0000.
 Antimicrobial label prediction of the sequence        LLLLRRRR with nterm:     C8 is 0.9999.
@@ -139,7 +138,6 @@ Antimicrobial label prediction of the sequence WFKKIPKFLHLLKKF with nterm:    BI
 Antimicrobial label prediction of the sequence       MWRRRPWRW with nterm:    NAP is 0.9989.
 Antimicrobial label prediction of the sequence     KWLRRPWRWWR with nterm:    PYR is 0.9992.
 Antimicrobial label prediction of the sequence       RLWLAWKRR with nterm:    C12 is 1.0000.
-# Octa-SAFPs. ------------------------------------------------------------------------------
 Antimicrobial label prediction of the sequence        RHKHWTYY with nterm:    C16 is 1.0000.
 Antimicrobial label prediction of the sequence        KHHKQQRY with nterm:    C16 is 0.9974.
 Antimicrobial label prediction of the sequence        HCWKLYHW with nterm:    ANT is 0.9992.
