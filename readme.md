@@ -59,9 +59,10 @@ Available N-terminal types are:
 
 
 ## References
+Huayang Liu†, Zilin Song†, Yu Zhang, Bihan Wu, Dinghao Chen, Ziao Zhou, Hongyue Zhang, Sangshuang Li, Xinping Feng, Jing Huang*, Huaimin Wang*,  
+[De novo design of self-assembling peptides with antimicrobial activity guided by deep-learning](https://www.nature.com/articles/s41563-025-02164-3),  
+*Nature Materials*, in press (2025).
 
-**"De novo design of self-assembling peptides with antimicrobial activity guided by deep-learning"**  
-Huayang Liu†, Zilin Song†, Yu Zhang, Bihan Wu, Dinghao Chen, Ziao Zhou, Hongyue Zhang, Sangshuang Li, Xinping Feng, Jing Huang*, Huaimin Wang*
 
 
 **Correspondence:**  
